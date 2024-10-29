@@ -1,0 +1,46 @@
+#artist_list {
+  list-style-type: none;
+  padding-top: 5px;
+}
+
+#artist_list .person {
+  cursor: pointer; cursor: hand;
+  height: 57px;
+  width: 75px;
+  display: block;
+  float: left;
+  overflow: hidden;
+  margin-right: 0px;
+  margin-bottom: 5px;
+  padding-left: 60px;
+  padding-right: 5px;
+  padding-top: 3px;
+  border: solid 1px White;
+}
+
+#artist_list .person:hover {
+  background: #fefefe;
+  border: solid 1px #e8e8e8;
+  text-decoration: none;
+}
+
+#artist_list .person span {
+  font-size: 12px;
+  display: block;
+  line-height: 1.2em;
+}
+
+#artist_list a, #artist_list a:link {
+  color: #0088ee;
+  text-decoration: none;
+}
+
+#artist_list a:hover {
+  color: #0088ee;
+  text-decoration: underline;
+}
+
+#artist_list .person span .artist_on_tour {
+  font-size: 11px;
+  color: #ff690a;
+}
